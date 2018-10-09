@@ -280,7 +280,7 @@ export default function() {
     function mouseupped() {
       v.on("mousemove.zoom mouseup.zoom", null);
       dragEnable(event.view, g.moved);
-      noevent();
+//       noevent();
       g.end();
     }
   }
